@@ -13,7 +13,22 @@ body
 .webgl
 {
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
     outline: none;
+}
+
+.text {
+    font-family: "Open Sans", "Helvetica Neue";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.2rem;
+    -webkit-text-stroke-color: #fff;
+    font-size: 12rem;
+    text-transform: uppercase;
+
 }
